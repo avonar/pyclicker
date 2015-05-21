@@ -77,7 +77,6 @@ class mclicker():
                 x, y = a
                 print x, ' ', y, ' ', b
                 self.click(x, y)
-                pythoncom.PumpMessages()
                 self.sleeptime(b)
                 #time.sleep(b)
 
